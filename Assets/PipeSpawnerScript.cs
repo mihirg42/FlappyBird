@@ -24,8 +24,8 @@ public class PipeSpawnerScript : MonoBehaviour
             timer += Time.deltaTime;
         else
         {
-            spawnPipe();
             timer = 0;
+            spawnPipe();
         }
         
     }
